@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Carousel</title>
+
+  <!-- Glide.js CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f4f4f4;
+      text-align: center;
+    }
+    .glide {
+      max-width: 600px;
+      margin: auto;
+    }
+    .glide__slide img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .glide__arrows button {
+      padding: 10px 20px;
+      margin: 10px;
+      background: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Responsive Image Carousel</h2>
+
+  <!-- Carousel structure -->
+  <div class="glide">
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+        <li class="glide__slide"><img src="https://via.placeholder.com/600x300?text=Image+1" alt="Image 1"></li>
+        <li class="glide__slide"><img src="https://via.placeholder.com/600x300?text=Image+2" alt="Image 2"></li>
+        <li class="glide__slide"><img src="https://via.placeholder.com/600x300?text=Image+3" alt="Image 3"></li>
+      </ul>
+    </div>
+
+    <div class="glide__arrows" data-glide-el="controls">
+      <button class="glide__arrow glide__arrow--left" data-glide-dir="<">Prev</button>
+      <button class="glide__arrow glide__arrow--right" data-glide-dir=">">Next</button>
+    </div>
+  </div>
+
+  <!-- Glide.js Script -->
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
+  <script>
+    new Glide('.glide', {
+      type: 'carousel',
+      perView: 1,
+      autoplay: 3000, // Automatically slide every 3 seconds
+      hoverpause: true
+    }).mount();
+  </script>
+
+</body>
+</html>
