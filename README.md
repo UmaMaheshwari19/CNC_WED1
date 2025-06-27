@@ -13,13 +13,13 @@ The Responsive Image Carousel is a modern, lightweight web component built to sh
 
 To develop a responsive image slider that:
 
-Enhances user interaction
+1.Enhances user interaction
 
-Works seamlessly across devices (desktop, tablet, mobile)
+2.Works seamlessly across devices (desktop, tablet, mobile)
 
-Requires minimal code and dependencies
+3.Requires minimal code and dependencies
 
-Can be reused in any web project
+4.Can be reused in any web project
 
 
 🌟 **Core Features**
