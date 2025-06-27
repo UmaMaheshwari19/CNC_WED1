@@ -4,12 +4,12 @@
 🚀 **Project Title: Responsive Image Carousel with Glide.js**
 
 
-🧠** Project Overview**
+🧠 **Project Overview**
 
 The Responsive Image Carousel is a modern, lightweight web component built to showcase images in a smooth, interactive, and user-friendly manner. Whether you're building a portfolio, product gallery, or hero slider, this component offers an elegant and reusable solution using HTML, CSS, JavaScript, and the ultra-lightweight library Glide.js.
 
 
-🎯** Objective**
+🎯**Objective**
 
 To develop a responsive image slider that:
 
@@ -50,7 +50,7 @@ JavaScript (ES6) – Basic scripting and logic
 Glide.js – Lightweight carousel engine (CDN included)
 
 
-🧪** How to Run the Project**
+🧪 **How to Run the Project**
 
 1.Download or clone the repository.
 
