@@ -24,19 +24,19 @@ Can be reused in any web project
 
 🌟 **Core Features**
 
-Feature                                                 	Description
+Feature  and                                               	Description
 
-🔁 Auto Play                            	Images automatically transition every few seconds
+🔁 Auto Play     -                       	Images automatically transition every few seconds
 
-⬅️➡️ Navigation	                        “Previous” and “Next” buttons allow users to manually control slides
+⬅️➡️ Navigation	 -                       “Previous” and “Next” buttons allow users to manually control slides
 
-📱 Mobile Friendly                       	Fully responsive and supports swipe gestures on touch devices
+📱 Mobile Friendly   -                    	Fully responsive and supports swipe gestures on touch devices
 
-⚡ Lightweight	                          Built using Glide.js (~23KB minified), no jQuery or heavy frameworks
+⚡ Lightweight	    -                      Built using Glide.js (~23KB minified), no jQuery or heavy frameworks
 
-🔧 Easy Integration	                      Simple HTML structure and customizable options for any developer to use
+🔧 Easy Integration	    -                  Simple HTML structure and customizable options for any developer to use
 
-🧩 Modular Design                       	Clean, component-based structure that’s easy to extend or modify
+🧩 Modular Design      -                 	Clean, component-based structure that’s easy to extend or modify
 
 
 🧰 **Tech Stack**
